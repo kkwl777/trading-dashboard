@@ -8,7 +8,7 @@ function App() {
     <div className="App" >
          
       <div > 
-        <IFcomm />
+        
 
       <TradingViewWidget
         symbol={'BTCPERP'}
@@ -17,13 +17,25 @@ function App() {
         theme={'dark'}
         timezone={"America/Toronto"}
         hide_side_toolbar={false}
-        calander={true}
+        
+        calandar={true}
+        details={true}
+        hotlist={true}
+        withdateranges={true}
+        
         watchlist= {[
+          "AMEX:SPY",
+          "AMEX:IWM",
+     
           "BINANCE:BTCPERP",
-
+          "TSXV:HIVE",
           "BINANCE:ETHPERP",
-          "BINANCE:ETHBTC",
+          "DERIBIT:ETHPERP",
 
+          "BINANCE:ETHBTC",
+          "CRYPTOCAP:TOTAL",
+          "CRYPTOCAP:TOTAL2",
+          
           "FTX:SOLPERP",
           "BINANCE:AVAXPERP",
           "BINANCE:LUNAPERP",
@@ -31,6 +43,8 @@ function App() {
 
         ]}
       />
+
+<IFcomm />
       </div>
     </div>
   );
