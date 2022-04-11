@@ -46,7 +46,7 @@ function Notes({initialName = ''}) {
 
   return (
     <div style={{width:'20%'}}>
-<textarea style={{width:'100%' ,height:'100%'}} class="textarea textarea-ghost text-zinc-200/100" placeholder="Hi cct383 grader! \n have a nice day \n "  value={note} onChange={handleChange} id="note"></textarea>
+<textarea style={{width:'100%' ,height:'100%'}} class="textarea textarea-ghost text-zinc-200/100" placeholder="Notes"  value={note} onChange={handleChange} id="note"></textarea>
 
       {/* <form>
      
