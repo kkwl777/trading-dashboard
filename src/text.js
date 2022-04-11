@@ -46,7 +46,7 @@ function Notes({initialName = ''}) {
 
   return (
     <div style={{width:'20%'}}>
-<textarea style={{width:'100%' ,height:'100%'}} class="textarea textarea-ghost text-zinc-200/100" placeholder="Notes; For first time use, visit https://v3.aggr.trade/ to generate a local cache"  value={note} onChange={handleChange} id="note"></textarea>
+<textarea style={{width:'100%' ,height:'100%'}} class="textarea textarea-ghost text-zinc-200/100" placeholder="Notes; For first time use, visit https://v3.aggr.trade/ to generate a default cache"  value={note} onChange={handleChange} id="note"></textarea>
 
       {/* <form>
      
